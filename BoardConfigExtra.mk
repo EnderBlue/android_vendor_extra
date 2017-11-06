@@ -1,1 +1,1 @@
-# -include vendor/EnderBlue/BoardConfigExtra.mk
+-include vendor/EnderBlue/BoardConfigExtra.mk
