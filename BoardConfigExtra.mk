@@ -1,1 +1,1 @@
--include vendor/invisiblek/BoardConfigExtra.mk
+-include vendor/EnderBlue/BoardConfigExtra.mk
