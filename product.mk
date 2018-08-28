@@ -9,10 +9,10 @@ TARGET_ARCH := arm64
 -include vendor/gapps/$(TARGET_ARCH)/$(TARGET_ARCH)-vendor.mk
 endif
 
-#TARGET_EXTRA_KERNEL_MODULES := wireguard
+TARGET_EXTRA_KERNEL_MODULES := wireguard
 
-#PRODUCT_COPY_FILES += \
-#    vendor/extra/rootdir/etc/init/ttl.rc:system/etc/init/ttl.rc
+PRODUCT_COPY_FILES += \
+    vendor/extra/rootdir/etc/init/ttl.rc:system/etc/init/ttl.rc
 
 # Themes
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
